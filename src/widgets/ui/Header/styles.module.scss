@@ -1,0 +1,13 @@
+@import "shared/assets/styles/colors";
+@import "shared/assets/styles/mixins";
+.Header{
+   @include flex-horizontal-between-center;
+   margin-bottom: 26px;
+   &__logo{
+     color: $red;
+      line-height: normal;
+   }
+   &__role{
+      color: $black;
+   }
+}

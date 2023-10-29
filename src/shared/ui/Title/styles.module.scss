@@ -1,0 +1,24 @@
+@import "shared/assets/styles/mixins";
+.Title{
+  &__h1{
+    margin: 0;
+  }
+  &__h2{
+    margin: 0;
+  }
+  &__h3{
+    @include text-st(32px,700,_);
+    margin: 0;
+  }
+  &__h4{
+    font-weight: 600;
+    line-height: 140%;
+    margin: 0;
+  }
+  &__h5{
+    margin: 0;
+  }
+  &__h6{
+    margin: 0;
+  }
+}

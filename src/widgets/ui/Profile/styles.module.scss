@@ -1,0 +1,46 @@
+@import "shared/assets/styles/mixins";
+@import "shared/assets/styles/colors";
+.Profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  gap: 61px;
+
+  &__avatar{
+    width: 100%;
+    & > img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__info{
+    @include flex-column;
+    gap: 20px;
+    width: 100%;
+
+    &_contacts{
+      @include flex-column;
+      gap: 10px;
+      .item {
+        display: flex;
+        gap: 5px;
+        &__name{
+          font-weight: 600;
+        }
+        &__content{
+
+        }
+      }
+    }
+
+    &_about{
+      @include flex-column;
+      gap: 25px;
+    }
+  }
+}

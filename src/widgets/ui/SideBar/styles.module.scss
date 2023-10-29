@@ -1,0 +1,29 @@
+@import "shared/assets/styles/colors";
+@import "shared/assets/styles/mixins";
+
+.SideBar{
+  @include flex-column;
+  gap: 30px;
+  padding: 27px 31px 27px 20px;
+  background: $grey-bg;
+  border-right: 1px solid $grey-border-2;
+  &__loader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__search{
+    @include flex-column;
+    gap: 14px;
+    width: 100%;
+  }
+  &__result,&__list > div{
+    @include flex-column;
+    padding: 5px;
+    gap: 18px;
+  }
+  &__list{
+    overflow-y: scroll;
+    max-height: 520px;
+  }
+}

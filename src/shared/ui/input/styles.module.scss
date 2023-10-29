@@ -1,0 +1,13 @@
+@import "shared/assets/styles/colors";
+@import "shared/assets/styles/mixins";
+.input{
+  @include text-st(14px,false,$grey-text);
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1.5px solid $grey-border;
+  background: $white;
+  &:focus{
+    outline: none;
+  }
+}
