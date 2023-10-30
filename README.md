@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Описание приложения
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SPA приложение с поиск сотрудников для компании [ЖИЛФОНД](https://jilfond.ru/) .
 
-## Available Scripts
+## Технологии
 
-In the project directory, you can run:
+Для разработки использовались следующие технологии:
 
-### `npm start`
+- [React](https://reactjs.org/)
+- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Запуск приложения
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Склонируйте репозиторий на свой компьютер:
+```bash
+git clone https://github.com/username/repo-name.git
+ ```
+2. Склонируйте репозиторий на свой компьютер:
 
-### `npm test`
+```bash
+cd watsapp-test-task
+ ```
+3. Установите зависимости:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+ ```
 
-### `npm run build`
+4. Запустите приложение:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm run start
+ ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Если автоматический не открылась вкладка проекта, перейдите по адресу: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## Пользование
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Введите данные в поисковую строку в виде:
+- username ( имя пользователя )
+- id ( айди пользователя )
+  
+P.S Вводить можно через запятую несколько пользователей.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. После завершение поиска, ниже будут представленый пользователи которые совпадают с поисковым запросом, нажмите на любого из представленных, чтобы открыть профиль.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
