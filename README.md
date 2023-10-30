@@ -20,7 +20,7 @@ git clone https://github.com/username/repo-name.git
 2. Склонируйте репозиторий на свой компьютер:
 
 ```bash
-cd watsapp-test-task
+cd jil-fond
  ```
 3. Установите зависимости:
 
